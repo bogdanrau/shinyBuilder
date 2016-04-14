@@ -3,5 +3,7 @@ observeEvent(input$pageTabs, {
     source("R/server/page-bootstrap.R", local = TRUE)
   } else if (input$pageTabs == 'Navbar') {
     source("R/server/page-navbar.R", local = TRUE)
+  } else if (input$pageTabs == 'Sidebar') {
+    source("R/server/page-sidebar.R", local = TRUE)
   }
 })

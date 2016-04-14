@@ -2,7 +2,7 @@ miniUI::miniContentPanel(
   shiny::fillRow(
     shiny::fillCol(
       shiny::fillRow(
-        shiny::fillCol(shiny::HTML("<b>Bootstrap Page</b>"))
+        shiny::fillCol(shiny::HTML("<h3>Bootstrap Page</h3>"))
       ),
       shiny::fillRow(
         shiny::fillCol("Shiny UI page that loads the CSS and Javascript for Bootstrap,

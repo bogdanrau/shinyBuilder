@@ -11,7 +11,7 @@ addShinyPage <- function() {
       miniUI::miniTabPanel(title = "Sidebar", icon = shiny::icon("pause"), source("R/ui/page-sidebar.R")[1]),
       miniUI::miniTabPanel(title = "Dashboard", icon = shiny::icon("tachometer"))
       ),
-      padding = 0
+      padding = 15
     )
 
 
@@ -49,7 +49,19 @@ addShinyPage <- function() {
 
 )"))
           } else if (input$pageTabs == 'Sidebar') {
-            print("Hello")
+            source("R/server/page-sidebar.R", local = TRUE)
+            pageProperties <- pageProperties()
+            rstudioapi::insertText(paste0("pageWithSidebar(
+  headerPanel(title = '", pageProperties$title, "'),
+  sidebarPanel(width = ", pageProperties$sidebarWidth, ",
+  ### Insert Sidebar Code Here
+
+            ),
+  mainPanel(width = ", pageProperties$mainWidth, ",
+  ### Insert Main Code Here
+
+            )
+  )"))
           }
         })
 

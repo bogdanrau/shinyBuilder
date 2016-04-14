@@ -2,7 +2,7 @@ miniUI::miniContentPanel(
 shiny::fillRow(
   shiny::fillCol(
     shiny::fillRow(
-      shiny::fillCol(shiny::HTML("<b>Navbar Page</b>"))
+      shiny::fillCol(shiny::HTML("<h3>Navbar Page</h3>"))
     ),
     shiny::fillRow(
       shiny::fillCol("Create a page that contains a top level navigation bar that can be used to toggle a set of tabPanel elements.")
