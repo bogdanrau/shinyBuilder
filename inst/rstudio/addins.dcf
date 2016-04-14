@@ -1,0 +1,4 @@
+Name: Add Shiny Page
+Description: Inserts a Shiny Page framework.
+Binding: addShinyPage
+Interactive: true

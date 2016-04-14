@@ -1,0 +1,17 @@
+Package: shinyBuilder
+Type: Package
+Title: Create Shiny Applications with Shiny
+Version: 0.1.0
+Author: person("Bogdan", "Rau", email = "bogdan@dataleap.io", role = c("aut",
+    "cre"))
+Description: Provides a user interface for the creation of shiny applications.
+    This runs as a Shiny Gadget / RStudio Addin.
+License: MIT
+LazyData: TRUE
+Depends:
+    R (>= 3.0.0)
+Imports:
+    shiny (>= 0.13),
+    miniUI (>= 0.1.1),
+    rstudioapi (>= 0.4)
+RoxygenNote: 5.0.1
