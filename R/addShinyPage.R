@@ -9,7 +9,7 @@ addShinyPage <- function() {
       miniUI::miniTabPanel(title = "Bootstrap", icon = shiny::icon("globe"), source("R/ui/page-boostrap.R")[1]),
       miniUI::miniTabPanel(title = "Navbar",  icon = shiny::icon("square"), source("R/ui/page-navbar.R")[1]),
       miniUI::miniTabPanel(title = "Sidebar", icon = shiny::icon("pause"), source("R/ui/page-sidebar.R")[1]),
-      miniUI::miniTabPanel(title = "Dashboard", icon = shiny::icon("tachometer"))
+      miniUI::miniTabPanel(title = "Dashboard", icon = shiny::icon("tachometer"), source("R/ui/page-shinydashboard.R")[1])
       ),
       padding = 15
     )
@@ -62,6 +62,26 @@ addShinyPage <- function() {
 
             )
   )"))
+          } else if (input$pageTabs == 'Dashboard') {
+            source("R/server/page-shinydashboard.R", local = TRUE)
+            pageProperties <- pageProperties()
+            rstudioapi::insertText(paste0("dashboardPage(title = '", pageProperties$title, "',
+  skin = '", pageProperties$skin, "',
+  dashboardHeader(title = '", pageProperties$headerTitle, "',
+    titleWidth = ", pageProperties$headerTitleWidth, ",
+    disable = ", pageProperties$headerDisable, ",
+    ### Insert header code here
+
+    ),
+  dashboardSidebar(width = ", pageProperties$sidebarWidth, ",
+    disable = ", pageProperties$sidebarDisable, ",
+    ### Insert sidebar code here
+
+    ),
+  dashboardBody(
+    ### Insert body code here
+
+    )"))
           }
         })
 

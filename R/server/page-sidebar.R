@@ -1,6 +1,4 @@
-
-
-# Bootstrap values
+# Sidebar values
 pageProperties <- reactive({
 
   pageTitle = ifelse(
