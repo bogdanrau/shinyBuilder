@@ -45,7 +45,7 @@ miniUI::miniContentPanel(
         flex = c(2,6)
       )
     ),
-    height = "440px"
+    height = "540px"
   ),
   padding = 15
 )
