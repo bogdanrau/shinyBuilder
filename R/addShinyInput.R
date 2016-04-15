@@ -3,6 +3,7 @@
 #' @import shiny
 #' @import miniUI
 #' @import rstudioapi
+#' @export
 addShinyInput <- function() {
 
   context <- rstudioapi::getActiveDocumentContext()

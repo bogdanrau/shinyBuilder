@@ -8,7 +8,7 @@ miniUI::miniContentPanel(
         shiny::fillCol("Create a Shiny UI that contains a header with the application title,
                        a sidebar for input controls, and a main area for output.")
       ),
-      shiny::fillRow(HTML("<br /><b>Header Panel:</b>")),
+      shiny::fillRow(shiny::HTML("<br /><b>Header Panel:</b>")),
       shiny::fillRow(
         shiny::fillCol(shiny::HTML("<b>Page Title:</b> <i class='fa fa-info-circle' data-toggle='tooltip' data-placement='right' title='The title of your page.'></i>")),
         shiny::fillCol(shiny::textInput("sidebarPageTitle", label = NULL, width = "100%")),
