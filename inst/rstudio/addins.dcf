@@ -2,3 +2,8 @@ Name: Add Shiny Page
 Description: Inserts a Shiny Page framework.
 Binding: addShinyPage
 Interactive: true
+
+Name: Add Shiny Input
+Description: Inserts a Shiny Input field.
+Binding: addShinyInput
+Interactive: true

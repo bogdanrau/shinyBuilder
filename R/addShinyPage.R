@@ -1,4 +1,8 @@
-#' Add Shiny UI Components
+#' Add Shiny Page Framework
+#' #' @import shinydashboard
+#' @import shiny
+#' @import miniUI
+#' @import rstudioapi
 addShinyPage <- function() {
 
   context <- rstudioapi::getActiveDocumentContext()

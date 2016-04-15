@@ -2,11 +2,13 @@
 % Please edit documentation in R/addShinyPage.R
 \name{addShinyPage}
 \alias{addShinyPage}
-\title{Add Shiny UI Components}
+\title{Add Shiny Page Framework
+#' @import shinydashboard}
 \usage{
 addShinyPage()
 }
 \description{
-Add Shiny UI Components
+Add Shiny Page Framework
+#' @import shinydashboard
 }
 

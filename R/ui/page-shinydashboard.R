@@ -17,7 +17,7 @@ miniUI::miniContentPanel(
         shiny::fillCol(shiny::selectInput("dashboardSkin", label = NULL, choices = c("blue", "black", "purple", "green", "red", "yellow"), width = "100%")),
         flex = c(2,6)
       ),
-      shiny::fillRow(HTML("<br /><b>Dashboard Header:</b>")),
+      shiny::fillRow(shiny::HTML("<br /><b>Dashboard Header:</b>")),
       shiny::fillRow(
         shiny::fillCol(shiny::HTML("<b>Dashboard Title:</b> <i class='fa fa-info-circle' data-toggle='tooltip' data-placement='right' title='The title of your page - will show in the header bar.'></i>")),
         shiny::fillCol(shiny::textInput("dashboardHeaderTitle", label = NULL, width = "100%")),
