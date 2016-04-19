@@ -1,5 +1,5 @@
 #' Add Shiny Page Framework
-#' #' @import shinydashboard
+#' @import shinydashboard
 #' @import shiny
 #' @import miniUI
 #' @import rstudioapi

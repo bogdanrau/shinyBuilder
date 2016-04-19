@@ -11,15 +11,15 @@ addShinyInput <- function() {
   ui <- miniUI::miniPage(
     miniUI::gadgetTitleBar("Add Shiny Input", right = miniUI::miniTitleBarButton("done", "Add", primary = TRUE)),
     miniUI::miniTabstripPanel(id = "inputTabs",
-                              miniUI::miniTabPanel(title = "Text", icon = shiny::icon("font"), source("R/ui/page-boostrap.R")[1]),
-                              miniUI::miniTabPanel(title = "Numeric",  icon = shiny::icon("hashtag"), source("R/ui/page-navbar.R")[1]),
-                              miniUI::miniTabPanel(title = "Select", icon = shiny::icon("mouse-pointer"), source("R/ui/page-sidebar.R")[1]),
-                              miniUI::miniTabPanel(title = "Checkbox", icon = shiny::icon("check-square"), source("R/ui/page-shinydashboard.R")[1]),
-                              miniUI::miniTabPanel(title = "Date", icon = shiny::icon("calendar"), source("R/ui/page-shinydashboard.R")[1]),
-                              miniUI::miniTabPanel(title = "Radio", icon = shiny::icon("dot-circle-o"), source("R/ui/page-shinydashboard.R")[1]),
-                              miniUI::miniTabPanel(title = "Slider", icon = shiny::icon("sliders"), source("R/ui/page-shinydashboard.R")[1]),
-                              miniUI::miniTabPanel(title = "File", icon = shiny::icon("file-o"), source("R/ui/page-shinydashboard.R")[1]),
-                              miniUI::miniTabPanel(title = "Button", icon = shiny::icon("square"), source("R/ui/page-shinydashboard.R")[1])
+                              miniUI::miniTabPanel(title = "Text", icon = shiny::icon("font"), source("R/ui/input-text.R")[1]),
+                              miniUI::miniTabPanel(title = "Numeric",  icon = shiny::icon("hashtag"), source("R/ui/input-numeric.R")[1]),
+                              miniUI::miniTabPanel(title = "Select", icon = shiny::icon("mouse-pointer"), source("R/ui/input-select.R")[1]),
+                              miniUI::miniTabPanel(title = "Checkbox", icon = shiny::icon("check-square"), source("R/ui/input-checkbox.R")[1]),
+                              miniUI::miniTabPanel(title = "Date", icon = shiny::icon("calendar"), source("R/ui/input-date.R")[1]),
+                              miniUI::miniTabPanel(title = "Radio", icon = shiny::icon("dot-circle-o"), source("R/ui/input-radio.R")[1]),
+                              miniUI::miniTabPanel(title = "Slider", icon = shiny::icon("sliders"), source("R/ui/input-slider.R")[1]),
+                              miniUI::miniTabPanel(title = "File", icon = shiny::icon("file-o"), source("R/ui/input-file.R")[1]),
+                              miniUI::miniTabPanel(title = "Button", icon = shiny::icon("square"), source("R/ui/input-button.R")[1])
     ),
     padding = 15
   )
