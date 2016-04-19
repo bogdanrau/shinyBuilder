@@ -10,4 +10,4 @@ The **shinybuilder** package installs as an addin to RStudio and provides multip
 
 If you work in RStudio and develop Shiny apps, this can add to your efficiency in coding apps.
 
-![Shiny Page Builder](https://goo.gl/photos/XA3yvzUeLR5ZUFXX6)
+![Shiny Page Builder](https://lh3.googleusercontent.com/KiFwjkx966XgribWUiqx468UuJ-nr6XxcURlOJ-1PUjTOuT_EqZ4aW85tCelQ7O7saq1jvoxhw11mO9g6ndhi_6kGF6MvobNZTxc6FMBNbjt-HyroO9ladxUxWQGhDn8ZONWzq3KvGToVM-Hl9Jl7C2i3H07oB9rMeLHVjokidufLbNq-tWHYvxyDQdZyCjO_JJIbokxwAsla9gDubMPE9UQvpySnq2_7wOA_vaF4DybQB0nmcFCl5LRtL2IcqStleJwkPB7ds6deMzji5xq_l5t-gRSSJA30sZPEzYANYW4QhRsDyFVVbHbqc73aLLndcRgQmek58uuV9JY0j3pn-lLgNK88UtiPUhulktJStjrUV_ww8Gi49zh_MYcnAqVFmiJP0AOqjpQOwQiICuxDZSab6Zp394ftCXjmBvDAyzjrMtiBENYCwn3wglne3-8eT1TtBjE-FSTnsQRHLyxy1ECsoUGhBtSzaiD7zIOExou0CvdzTxRreLVy5mCDgiqpFNJe9wW5v4yIQ2eqXiQGELe3uiXfbxq9AHhMe9Z9eCKhB1hDDCtls5on7Btm6aDTKQ_=w632-h660-no)
